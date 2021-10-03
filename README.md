@@ -33,3 +33,21 @@ You can run tests by configuring the following parameters:
 - remoteDriverUrl (url address from selenoid or grid)
 - videoStorage (url address where you should get video)
 - threads (number of threads)
+
+![](robofinance_tests\src\test\resources\files\jenkins_params.png "Jenkins")
+
+### To run tests locally (default):
+'gradle clean test'
+
+### To run tests on Selenoid:
+'gradle clean test
+
+-Dweb.remote.driver.url=selenoid.autotests.cloud <br>
+-Dweb.remote.driver.user={USER} <br>
+-Dweb.remote.driver.password={PASSWORD} <br>
+* -Dweb.browser={BROWSER}
+* -Dweb.browser.version={BROWSER_VERSION}
+* -Dweb.browser.size={BROWSER_SIZE}
+* -Dthreads={THREADS_AMOUNT}'
+
+*optional
