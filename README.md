@@ -34,7 +34,7 @@ You can run tests by configuring the following parameters:
 - videoStorage (url address where you should get video)
 - threads (number of threads)
 
-![](robofinance_tests\src\test\resources\files\jenkins_params.png "Jenkins")
+![](src/test/resources/files/jenkins_params.png "Jenkins")
 
 ### To run tests locally (default):
 `gradle clean test`
