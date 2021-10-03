@@ -59,4 +59,4 @@ gradle clean test
 ![](src/test/resources/files/allure_report_2.png "Allure Report with steps")
 
 #### The video of the test:
-![](src/test/resources/files/79f8ab0f0d24df87.mp4 "Video from Selenoid")
+![](src/test/resources/files/video_robo.finance.gif "Video from Selenoid")
