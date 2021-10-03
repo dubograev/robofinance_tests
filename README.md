@@ -1,7 +1,7 @@
 # UI and API tests for Robo.finance
 
 ## Technology Stack
-![Ed](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Java.png "Java")
+![](\src\test\resources\files\icons\Java.png "Java")
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Selenide.png "Selenide")
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Rest-Assured.png "REST-Assured")
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Gradle.png "Gradle")
