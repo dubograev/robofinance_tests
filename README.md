@@ -61,8 +61,8 @@ gradle clean test
 #### The video of the test:
 ![](src/test/resources/files/video_robo.finance.gif "Video from Selenoid")
 
-##Allure TestOps
-####Launches
+## Allure TestOps
+#### Launches
 ![](src/test/resources/files/allure_testops_launches.png "Allure TestOps Launches")
 
 #### Test cases
