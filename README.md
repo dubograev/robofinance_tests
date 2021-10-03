@@ -1,6 +1,6 @@
 # UI and API tests for Robo.finance
 
-##Technology Stack
+## Technology Stack
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Java.png "Java")
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Selenide.png "Selenide")
 ![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Rest-Assured.png "REST-Assured")
@@ -24,7 +24,7 @@ from [Jenkins](https://github.com/EIOmelyashchik/qa_guru_final_project/blob/mast
 is used to run browsers in [Docker containers](https://www.docker.com/resources/what-container).
 
 
-##Description
+## Description
 You can run tests by configuring the following parameters:
 - browser (chrome is by default)
 - browserVersion (89.0 is by default)
@@ -33,5 +33,3 @@ You can run tests by configuring the following parameters:
 - remoteDriverUrl (url address from selenoid or grid)
 - videoStorage (url address where you should get video)
 - threads (number of threads)
-- 
-test
