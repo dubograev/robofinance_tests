@@ -51,3 +51,12 @@ gradle clean test
     * -Dthreads={THREADS_AMOUNT}
 ```
 *optional
+
+## Allure Report
+![](src/test/resources/files/allure_report.png "Allure Report")
+
+#### Test with steps, attached image, console logs and video:
+![](src/test/resources/files/allure_report_2.png "Allure Report with steps")
+
+#### The video of the test:
+![](src/test/resources/files/79f8ab0f0d24df87.mp4 "Video from Selenoid")
