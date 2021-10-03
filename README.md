@@ -33,3 +33,5 @@ You can run tests by configuring the following parameters:
 - remoteDriverUrl (url address from selenoid or grid)
 - videoStorage (url address where you should get video)
 - threads (number of threads)
+- 
+test
