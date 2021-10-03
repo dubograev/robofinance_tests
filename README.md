@@ -40,13 +40,14 @@ You can run tests by configuring the following parameters:
 `gradle clean test`
 
 ### To run tests on Selenoid:
-`gradle clean test` <br>
-`  -Dweb.remote.driver.url=selenoid.autotests.cloud` <br>
-`  -Dweb.remote.driver.user={USER}` <br>
-`  -Dweb.remote.driver.password={PASSWORD}` <br>
-`    * -Dweb.browser={BROWSER}` <br>
-`    * -Dweb.browser.version={BROWSER_VERSION}` <br>
-`    * -Dweb.browser.size={BROWSER_SIZE}` <br>
-`    * -Dthreads={THREADS_AMOUNT}`
-
+```
+gradle clean test
+  -Dweb.remote.driver.url=selenoid.autotests.cloud
+  -Dweb.remote.driver.user={USER}
+  -Dweb.remote.driver.password={PASSWORD}
+    * -Dweb.browser={BROWSER}
+    * -Dweb.browser.version={BROWSER_VERSION}
+    * -Dweb.browser.size={BROWSER_SIZE}
+    * -Dthreads={THREADS_AMOUNT}
+```
 *optional
