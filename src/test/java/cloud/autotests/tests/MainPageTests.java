@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -15,6 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MainPageTests extends TestBase {
 
     @Test
+    @AllureId("5009")
     @Description("Page title test")
     @DisplayName("Page title should have header text")
     void titleTest() {
@@ -30,6 +32,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @AllureId("5008")
     @Description("Console log errors test")
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {

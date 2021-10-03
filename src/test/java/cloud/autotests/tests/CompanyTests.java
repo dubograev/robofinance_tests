@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import com.codeborne.selenide.Configuration;
+import io.qameta.allure.AllureId;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -21,6 +22,7 @@ public class CompanyTests extends TestBase{
     }
 
     @Test
+    @AllureId("5013")
     @DisplayName("Левое меню на странице 'Компания' содержит 3 пункта")
     void buttonCompanyTest() {
         open("");
@@ -29,6 +31,7 @@ public class CompanyTests extends TestBase{
     }
 
     @Test
+    @AllureId("5010")
     @DisplayName("Левое меню на странице 'Компания' содержит следующие пункты: 'Проекты', 'Бонусы', 'Офисы'")
     void leftMenuTest() {
         open("/company");
@@ -38,6 +41,7 @@ public class CompanyTests extends TestBase{
     }
 
     @Test
+    @AllureId("5014")
     @DisplayName("Количество карточек в разделе 'Проекты' равно 8")
     void projectCardsTest() {
         open("/company");
@@ -46,6 +50,7 @@ public class CompanyTests extends TestBase{
     }
 
     @Test
+    @AllureId("5011")
     @DisplayName("Количество карточек в разделе 'Бонусы' равно 6")
     void projectBonusesTest() {
         open("/company");
@@ -54,6 +59,7 @@ public class CompanyTests extends TestBase{
     }
 
     @Test
+    @AllureId("5012")
     @DisplayName("Количество адресов в разделе 'Офисы' равно 8")
     void projectOfficesTest() {
         open("/company");

@@ -1,5 +1,7 @@
 package cloud.autotests.tests.api;
 
+import io.qameta.allure.AllureId;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +12,8 @@ import static org.hamcrest.Matchers.equalTo;
 public class GetVacanciesTests {
 
     @Test
+    @AllureId("5007")
+    @DisplayName("Количество отображаемых на странице вакансий должно быть равно 100")
     void getListOfVacancies() {
         given()
                 .when()
