@@ -1,19 +1,19 @@
 # UI and API tests for Robo.finance
 
 ## Technology Stack
-![](\src\test\resources\files\icons\Java.png "Java")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Selenide.png "Selenide")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Rest-Assured.png "REST-Assured")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Gradle.png "Gradle")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\JUnit5.png "JUnit 5")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Allure_Report.png "Allure Report")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\AllureTestOps.png "Allure TestOps")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Jira.png "JIRA")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Telegram.png "Telegram Bot")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Jenkins.png "Jenkins")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Selenoid.png "Selenoid")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Intelij_IDEA.png "IntelliJ IDEA")
-![](C:\andreywork\robofinance_tests\src\test\resources\files\icons\Github.png "GitHub")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Java.png "Java")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Selenide.png "Selenide")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Rest-Assured.png "REST-Assured")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Gradle.png "Gradle")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/JUnit5.png "JUnit 5")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Allure_Report.png "Allure Report")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/AllureTestOps.png "Allure TestOps")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Jira.png "JIRA")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Telegram.png "Telegram Bot")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Jenkins.png "Jenkins")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Selenoid.png "Selenoid")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Intelij_IDEA.png "IntelliJ IDEA")
+![](https://github.com/dubograev/robofinance_tests/blob/master/src/test/resources/files/icons/Github.png "GitHub")
 
 This project has written in [Java](https://go.java/) using [Selenide](https://selenide.org/) framework for UI-tests 
 and [REST-Assured](https://rest-assured.io/) for API-test. [Gradle](https://gradle.org/) is used to build the project.
