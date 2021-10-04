@@ -70,3 +70,6 @@ gradle clean test
 
 ## Telegram bot
 ![](src/test/resources/files/telegram_bot.png "Telegram bot")
+
+## Jira integration
+![](src/test/resources/files/Jira.png "Jira Integration")
